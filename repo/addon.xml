@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.tintin" name="Tintin's Repository" version="1.0" provider-name="Tintin">
+    <extension point="xbmc.addon.repository" name="Hooty's Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/hoangtiin/test/old/repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/hoangtiin/test/old/repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/hoangtiin/test/old/repo/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Tintin's Repository</summary>
+        <description>A repository for maintained releases of addons</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>

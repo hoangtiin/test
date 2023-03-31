@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons>
+  <addon id="plugin.video.tinmovies" name="Tin Movies" provider-name="Tintin" version="3.3.1">
+    <requires>
+      <import addon="script.module.codequick" version="0.9.10"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en_GB">Phim của tui.</summary>
+      <description lang="en_GB">Nothing to say</description>
+      <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+      <platform>all</platform>
+      <language>en</language>
+      <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+      </assets>
+      <news>[upd] Only list the youtube channels from now on, as site now uses "sucuri" to block bots. :(</news>
+      <reuselanguageinvoker>true</reuselanguageinvoker>
+      <supportedcontent>
+        <content>tvshows</content>
+        <content>movies</content>
+      </supportedcontent>
+    </extension>
+  </addon>
+</addons>
