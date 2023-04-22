@@ -25,7 +25,7 @@
       </supportedcontent>
     </extension>
   </addon>
-  <addon id="plugin.video.toimetvabancungthe" name="Tôi mệt và bạn cũng thế" provider-name="HoangTan" version="1.0.0">
+  <addon id="plugin.video.toimetvabancungthe" name="Tôi mệt và bạn cũng thế" provider-name="HoangTan" version="1.1.0">
     <requires>
       <import addon="script.module.codequick" version="0.9.10"/>
     </requires>
@@ -39,8 +39,8 @@
       <platform>all</platform>
       <language>en</language>
       <assets>
-        <icon>resources/icon.png</icon>
-        <fanart>resources/fanart.jpg</fanart>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
       </assets>
       <news>[upd] Only list the youtube channels from now on, as site now uses "sucuri" to block bots. :(</news>
       <reuselanguageinvoker>true</reuselanguageinvoker>
